@@ -1,0 +1,53 @@
+#circle_v18_wrap {
+    width: 250px;
+    height: 220px;
+}
+
+#circle_v18 {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 294px;
+    height: 227px;
+    font: 400 10px/normal 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    text-align: center;
+    color: #000 !important;
+    background: url(../badges2/Badges/Best-new-round.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#circletype_v18_brand_name {
+    position: absolute;
+    bottom: 41%;
+    width: 90%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+
+#circletype_v18_brand_name>a {
+    text-decoration: none;
+    color: black;
+    text-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    font-weight: 700;
+}
+
+#circle_v18 #rewards_link {
+    position: absolute !important;
+    top: 17%;
+    display: block !important;
+    color: #ffffff00 !important;
+    width: 45%;
+    height: 21%;
+}
+
