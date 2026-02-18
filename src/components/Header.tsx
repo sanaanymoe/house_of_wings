@@ -31,7 +31,7 @@ export function Header() {
     <header className={`header ${scrolledPastHero ? 'header-solid' : ''}`}>
       <div className="header-inner">
         <a href="#" className="logo">
-          <img src="/HouseOfWings_files/logo-nyc1.png" alt="House of Wings" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}HouseOfWings_files/logo-nyc1.png`} alt="House of Wings" className="logo-img" />
         </a>
         <button
           type="button"

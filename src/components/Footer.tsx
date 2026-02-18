@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
-          <img src="/HouseOfWings_files/logo2.png" alt="House of Wings NYC" className="footer-logo" />
+          <img src={`${import.meta.env.BASE_URL}HouseOfWings_files/logo2.png`} alt="House of Wings NYC" className="footer-logo" />
           <p className="footer-credit">© House of Wings NYC</p>
           <a
             href={INSTAGRAM_URL}

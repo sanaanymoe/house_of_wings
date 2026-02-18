@@ -1,5 +1,7 @@
 import type { Testimonial, Location } from '../types'
 
+const BASE = import.meta.env.BASE_URL
+
 export const ORDER_URL = 'https://www.makeitbutter.com/house-of-wings'
 
 export interface PromoBlock {
@@ -19,7 +21,7 @@ export const promoBlocks: PromoBlock[] = [
     headline: 'Wings done right',
     description:
       'Our wings are prepared fresh to order—crispy on the outside, juicy on the inside. Choose from classic buffalo, lemon pepper, garlic parmesan, and more. The way wings were meant to be.',
-    image: '/HouseOfWings_files/a1.jpg',
+    image: BASE + 'HouseOfWings_files/a1.jpg',
     imageAlt: 'House of Wings chicken wings',
   },
   {
@@ -28,7 +30,7 @@ export const promoBlocks: PromoBlock[] = [
     headline: 'Burgers that hit different',
     description:
       'Smash burgers, tenders, and all your favorites. Made with quality ingredients and served with a side of our famous fries. Perfect for lunch, dinner, or a late-night run.',
-    image: '/HouseOfWings_files/c5.jpg',
+    image: BASE + 'HouseOfWings_files/c5.jpg',
     imageAlt: 'House of Wings burgers and tenders',
     reverse: true,
   },
@@ -38,7 +40,7 @@ export const promoBlocks: PromoBlock[] = [
     headline: 'Chocolate shake perfection',
     description:
       'Creamy, rich, and made fresh. Our chocolate milkshake is the perfect way to cool down and treat yourself. One sip and you’ll understand why people call it the best in town.',
-    image: '/HouseOfWings_files/chocolate_shake.jpg',
+    image: BASE + 'HouseOfWings_files/chocolate_shake.jpg',
     imageAlt: 'House of Wings chocolate milkshake',
   },
   {
@@ -47,7 +49,7 @@ export const promoBlocks: PromoBlock[] = [
     headline: 'Fries, tenders & more',
     description:
       'Golden waffle fries, crispy tenders, and all the sides you crave. Whether you’re in for wings or a full meal, we’ve got the perfect combo waiting for you.',
-    image: '/HouseOfWings_files/c3.jpg',
+    image: BASE + 'HouseOfWings_files/c3.jpg',
     imageAlt: 'House of Wings fries and sides',
     reverse: true,
   },

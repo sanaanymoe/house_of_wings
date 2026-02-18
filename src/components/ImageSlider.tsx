@@ -1,20 +1,21 @@
 import { useState, useEffect } from 'react'
 
+const BASE = import.meta.env.BASE_URL
 const SLIDES = [
-  { alt: 'House of Wings', src: '/HouseOfWings_files/a1.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/a2.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/a3.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/a4.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c1.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c2.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c3.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c4.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c5.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c6.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c7.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c8.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c9.jpg' },
-  { alt: 'House of Wings', src: '/HouseOfWings_files/c10.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/a1.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/a2.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/a3.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/a4.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c1.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c2.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c3.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c4.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c5.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c6.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c7.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c8.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c9.jpg' },
+  { alt: 'House of Wings', src: BASE + 'HouseOfWings_files/c10.jpg' },
 ]
 
 export function ImageSlider() {
